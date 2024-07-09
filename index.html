@@ -30,29 +30,31 @@
     <div id="myModal" class="modal">
       <!-- Modal content -->
      <div class="modal-content">
-     <form>
-      <ul>
-      <li>
+     <form class="container">
+      <ul class="row">
+      <li class="col-6">
         <!--Task Title Input-->
-      <label for="task-title">Task Title:</label>
+      <label for="task-title">Task Title:</label><br>
       <input type="text" id="task-title">
      <!---->
      </li>
      <!--Due Date Input--->
-     <li>
-     <label for="due-date">Due Date:</label>
+     <li class="col-6">
+     <label for="due-date">Due Date:</label><br>
      <input type="text" id="due-date">
      </li>
     
     <li>
-     <!--Due Date Input--->
-    <label for="task-description">Task Descritpion:</label>
-    <input type="text" id="task-description">
+     <!--Description Input--->
+    <label for="task-description">Task Descritpion:</label><br>
+    <input type="text" id="task-description" size="75">
    </li>
   </ul>
+  <!--Submit button-->
+  <input id="submit-task" type="submit" value="Submit">
     </form>
   </div>
-    
+   </div> 
 <!--end of modal-->
     <div class="row swim-lanes text-center justify-content-between">
       <div class="col-12 col-lg-4 d-flex">

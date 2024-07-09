@@ -3,6 +3,15 @@ body {
   font-size: 16px;
 }
 
+
+li {
+  list-style-type: none;
+}
+
+#submit-task {
+  float: right;
+} 
+
 /* Modal Styling */
 /* The Modal (background) */
 .modal {
@@ -25,6 +34,7 @@ body {
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
+  justify-content: center;
 }
 
 
